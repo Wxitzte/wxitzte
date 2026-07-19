@@ -122,7 +122,7 @@ def FirstMission():
     w.runConcurrent(
         [w.ms(2500)],
         m1.resetEncoder(),
-        [m1.degree(430),m1.move(-75)],m1.brake(),
+        [m1.degree(),m1.move(-75)],m1.brake(),
         m1.resetEncoder()
     )
     w.run(
